@@ -5,7 +5,8 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import Services from './Components/Services/Services';
 import CountUp from './Components/CountUp/CountUp';
 import Experiences from './Components/Experiences/Experiences';
-import WorkFlow from './Components/WorkFlow/WorkFlow';
+// import WorkFlow from './Components/WorkFlow/WorkFlow';
+import Newworkflow from "./Components/WorkFlow/Newworkflow";
 import Projects from './Components/Projects/Projects';
 // import TestiMonial from './Components/TestiMonial/TestiMonial';
 import ContactUs from './Components/ContactUs/ContactUs';
@@ -39,7 +40,8 @@ const App = () => {
         <Experiences/>
       </section>
       <section id='workflow'>
-        <WorkFlow/>
+        {/* <WorkFlow/> */}
+        <Newworkflow/>
       </section>
       <section id='project'>
         <Projects/>
